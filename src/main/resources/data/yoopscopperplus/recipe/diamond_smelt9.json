@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:diamond_boot"
+  },
+  "result": {"id":"yoopscopperplus:diamond_nugget"},
+  "experience": 0.2,
+  "cookingtime": 200
+}
