@@ -1,3 +1,6 @@
 {
-  "item.yoopscopperplus.copper_nugget": "铜粒"
+  "item.yoopscopperplus.copper_nugget": "铜粒",
+  "item.yoopscopperplus.diamond_nugget": "钻石粒",
+  "item.yoopscopperplus.emerald_nugget": "绿宝石粒",
+  "item.yoopscopperplus.coal_crumb": "煤屑"
 }

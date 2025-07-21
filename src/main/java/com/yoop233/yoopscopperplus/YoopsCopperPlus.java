@@ -55,6 +55,9 @@ public class YoopsCopperPlus {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.COPPER_NUGGET);
+            event.accept(ModItems.DIAMOND_NUGGET);
+            event.accept(ModItems.EMERALD_NUGGET);
+            event.accept(ModItems.COAL_CRUMB);
         }
     }
 
