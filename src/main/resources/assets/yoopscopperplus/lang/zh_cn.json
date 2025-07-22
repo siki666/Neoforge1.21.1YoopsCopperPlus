@@ -2,5 +2,10 @@
   "item.yoopscopperplus.copper_nugget": "铜粒",
   "item.yoopscopperplus.diamond_nugget": "钻石粒",
   "item.yoopscopperplus.emerald_nugget": "绿宝石粒",
-  "item.yoopscopperplus.coal_crumb": "煤屑"
+  "item.yoopscopperplus.coal_crumb": "煤屑",
+  "item.yoopscopperplus.copper_axe": "铜斧",
+  "item.yoopscopperplus.copper_sword": "铜剑",
+  "item.yoopscopperplus.copper_pickaxe": "铜镐",
+  "item.yoopscopperplus.copper_hoe": "铜锄",
+  "item.yoopscopperplus.copper_shovel": "铜铲"
 }

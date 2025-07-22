@@ -59,6 +59,15 @@ public class YoopsCopperPlus {
             event.accept(ModItems.EMERALD_NUGGET);
             event.accept(ModItems.COAL_CRUMB);
         }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(ModItems.COPPER_AXE);
+            event.accept(ModItems.COPPER_PICKAXE);
+            event.accept(ModItems.COPPER_HOE);
+            event.accept(ModItems.COPPER_SHOVEL);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT){
+            event.accept(ModItems.COPPER_SWORD);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
