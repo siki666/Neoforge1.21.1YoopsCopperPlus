@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_trim",
+  "template": {
+    "tag": "minecraft:trim_templates"
+  },
+  "base": {
+    "tag": "yoopscopperplus:copper_armor"
+  },
+  "addition": {
+    "tag": "minecraft:trim_materials"
+  }
+}

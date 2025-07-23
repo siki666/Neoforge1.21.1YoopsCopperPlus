@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterial {
-    public static final Holder<ArmorMaterial> COPPER_ARMOR_MATERIAL = register("copper_armor",
+    public static final Holder<ArmorMaterial> COPPER_ARMOR_MATERIAL = register("copper",
             Util.make(new EnumMap<>(ArmorItem.Type.class),attributes -> {
                 attributes.put(ArmorItem.Type.HELMET, 2);
                 attributes.put(ArmorItem.Type.CHESTPLATE, 6);

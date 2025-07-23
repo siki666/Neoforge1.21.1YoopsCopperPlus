@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "yoopscopperplus:copper_helmet",
+    "yoopscopperplus:copper_chestplate",
+    "yoopscopperplus:copper_leggings",
+    "yoopscopperplus:copper_boots"
+  ]
+}

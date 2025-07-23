@@ -58,6 +58,8 @@ public class ModItems {
     public static final DeferredItem<Item>  COPPER_SHOVEL = ITEMS.register("copper_shovel",
             () -> new ShovelItem(COPPER_TIER, new Item.Properties().attributes(ShovelItem.createAttributes(COPPER_TIER, 1.5f, -3.0f))));
     //绿宝石工具
+    public static final DeferredItem<Item>  EMERALD_SWORD = ITEMS.register("emerald_sword",
+            () -> new SwordItem(EMERALD_TIER, new Item.Properties().attributes(SwordItem.createAttributes(EMERALD_TIER, 3, -2.4f))));
     public static final DeferredItem<Item>  EMERALD_AXE = ITEMS.register("emerald_axe",
             () -> new AxeItem(EMERALD_TIER, new Item.Properties().attributes(AxeItem.createAttributes(EMERALD_TIER, 4.5f, -2.0f))));
     public static final DeferredItem<Item>  EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",

@@ -15,7 +15,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks("yoopscopperplus");
 
     public static final DeferredBlock<Block> UNKNOWN = registerBlock("unknown",
-            () -> new Block(BlockBehaviour.Properties.of().strength(0.0f).air()));
+            () -> new Block(BlockBehaviour.Properties.of().strength(0.0f).requiresCorrectToolForDrops()));
 
     private static <T extends Block>DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

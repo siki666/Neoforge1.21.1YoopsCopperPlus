@@ -77,6 +77,7 @@ public class YoopsCopperPlus {
             event.accept(ModItems.COPPER_CHESTPLATE);
             event.accept(ModItems.COPPER_LEGGINGS);
             event.accept(ModItems.COPPER_BOOTS);
+            event.accept(ModItems.EMERALD_SWORD);
         }
         if(event.getTabKey() == CreativeModeTabs.OP_BLOCKS){
             event.accept(ModBlocks.UNKNOWN);
