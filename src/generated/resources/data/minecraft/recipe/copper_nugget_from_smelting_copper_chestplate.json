@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "copper_nugget_blasting",
+  "ingredient": {
+    "item": "yoopscopperplus:copper_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "yoopscopperplus:copper_nugget"
+  }
+}

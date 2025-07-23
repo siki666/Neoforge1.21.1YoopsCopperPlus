@@ -7,5 +7,15 @@
   "item.yoopscopperplus.copper_sword": "铜剑",
   "item.yoopscopperplus.copper_pickaxe": "铜镐",
   "item.yoopscopperplus.copper_hoe": "铜锄",
-  "item.yoopscopperplus.copper_shovel": "铜铲"
+  "item.yoopscopperplus.copper_shovel": "铜铲",
+  "item.yoopscopperplus.copper_helmet": "铜头盔",
+  "item.yoopscopperplus.copper_chestplate": "铜胸甲",
+  "item.yoopscopperplus.copper_leggings": "铜护腿",
+  "item.yoopscopperplus.copper_boots": "铜靴",
+  "block.yoopscopperplus.unknown": "未知方块",
+  "item.yoopscopperplus.copper_chisel": "铜凿子",
+  "item.yoopscopperplus.emerald_pickaxe": "绿宝石镐",
+  "item.yoopscopperplus.emerald_axe": "绿宝石斧",
+  "item.yoopscopperplus.emerald_hoe": "绿宝石锄",
+  "item.yoopscopperplus.emerald_shovel": "绿宝石铲"
 }

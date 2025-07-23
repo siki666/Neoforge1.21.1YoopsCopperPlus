@@ -1,5 +1,6 @@
 package com.yoop233.yoopscopperplus;
 
+import com.yoop233.yoopscopperplus.block.ModBlocks;
 import com.yoop233.yoopscopperplus.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -36,7 +37,7 @@ public class YoopsCopperPlus {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -64,10 +65,23 @@ public class YoopsCopperPlus {
             event.accept(ModItems.COPPER_PICKAXE);
             event.accept(ModItems.COPPER_HOE);
             event.accept(ModItems.COPPER_SHOVEL);
+            event.accept(ModItems.COPPER_CHISEL);
+            event.accept(ModItems.EMERALD_AXE);
+            event.accept(ModItems.EMERALD_PICKAXE);
+            event.accept(ModItems.EMERALD_HOE);
+            event.accept(ModItems.EMERALD_SHOVEL);
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT){
             event.accept(ModItems.COPPER_SWORD);
+            event.accept(ModItems.COPPER_HELMET);
+            event.accept(ModItems.COPPER_CHESTPLATE);
+            event.accept(ModItems.COPPER_LEGGINGS);
+            event.accept(ModItems.COPPER_BOOTS);
         }
+        if(event.getTabKey() == CreativeModeTabs.OP_BLOCKS){
+            event.accept(ModBlocks.UNKNOWN);
+        }
+        LOGGER.info("creative tab contents finished");
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

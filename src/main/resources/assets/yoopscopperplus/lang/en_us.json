@@ -7,5 +7,15 @@
   "item.yoopscopperplus.copper_sword": "Copper Sword",
   "item.yoopscopperplus.copper_pickaxe": "Copper Pickaxe",
   "item.yoopscopperplus.copper_hoe": "Copper Hoe",
-  "item.yoopscopperplus.copper_shovel": "Copper Shovel"
+  "item.yoopscopperplus.copper_shovel": "Copper Shovel",
+  "item.yoopscopperplus.copper_helmet": "Copper Helmet",
+  "item.yoopscopperplus.copper_chestplate": "Copper Chestplate",
+  "item.yoopscopperplus.copper_leggings": "Copper Leggings",
+  "item.yoopscopperplus.copper_boots": "Copper Boots",
+  "block.yoopscopperplus.unknown": "Unknown Block",
+  "item.yoopscopperplus.copper_chisel": "Copper Chisel",
+  "item.yoopscopperplus.emerald_pickaxe": "Emerald Pickaxe",
+  "item.yoopscopperplus.emerald_axe": "Emerald Axe",
+  "item.yoopscopperplus.emerald_hoe": "Emerald Hoe",
+  "item.yoopscopperplus.emerald_shovel": "Emerald Shovel"
 }
